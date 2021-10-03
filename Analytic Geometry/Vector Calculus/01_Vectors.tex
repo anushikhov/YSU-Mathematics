@@ -1,0 +1,56 @@
+\documentclass[11pt]{article}
+\usepackage[margin=.75in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{cleveref}
+\usepackage{graphicx}
+\usepackage{ulem}
+
+\title{\S1. Vectors, Free Vectors}
+\author{Piliposyan, Ohnikyan}
+\date{October 2021}
+
+\begin{document}
+
+\maketitle
+
+Free vectors, along with the operations performed on them, fall under the basis of vector calculus. There are four primary operations: vector addition, vector multiplication, scalar (dot) and vector (cross) products.
+
+\begin{center}
+	\textbf{Definition:} An arbitrarily ordered pair of points in space of which the first is considered the starting (initial) point and the second is considered the ending (terminal) point is called a \textbf{vector}.
+\end{center}
+
+\noindent By connecting the initial and terminal points of a vector, we can make it look like a directed line segment.\\
+
+\noindent We use the following notations to denote a vector, where \(A\) is the initial point and \(B\) is the terminal point: \((A,B)\), \(\overrightarrow{AB}\), \(\overline{AB}\). The length of the segment \(AB\) is called \(\overrightarrow{AB}\) vector's \textbf{magnitude} and is written as \(\mid{\overrightarrow{AB}}\mid\) or \(\mid{\overline{AB}}\mid\). In the case when the initial and terminal points of a vector are the same, i.e. \(\overrightarrow{AA}\), \(\overrightarrow{BB}\), ..., then the length of the vector is 0. \\
+
+\noindent To define on the vectors operations with certain properties, we introduce the notion of a free vector. In general, there are two approaches for defining free vectors. \\
+
+\noindent Using the first approach, \textit{two vectors are considered equal, if by respectively connecting the initial and terminal points we get a \textbf{parallelogram}, or if they are located on the same line, have the same magnitude and are pointing to the same direction.} The resulting vector is called a \textbf{free vector}. \\
+
+\noindent Under the basis of the second method, lies the concept of equivalence classes. If two non-zero vectors are as is mentioned above, then they are considered \textbf{equivalent} (only overlapping vectors are considered equal). In this case, the free vector is defined as the group of all possible equivalent vectors (equivalence class). The vectors themselves (the directed segments) are called the \textbf{representives} of the given free vector. Free vectors do not have initial and terminal points. For this reason, we use the following notation to denote them: \(\vec{a}\), \(\vec{b}\), ... . Vectors of the form \(\overrightarrow{AA}\), \(\overrightarrow{BB}\), ... are also considered equivalent. The class that is determined by them is called \textbf{the zero vector} (isotropic vector) and is denoted with \(\vec{0}\). \\
+
+\noindent We can also define free vectors as transformations of parallel displacement. \\
+
+\noindent A free vector is fully determined by any of its representatives. Frequently encountered "\(\vec{a} = \overrightarrow{AB}\)' expression should be read as "given \(\vec{a}\) free vector with its representative \(\overrightarrow{AB}\). The expression "applying \(\vec{a}\) vector from point \(A\)" means "let's consider the representative of the free vector \(\vec{a}\) that has \(A\) as its initial point.\\
+
+\noindent Note that any free vector can be applied from any point.\\
+
+\noindent \(\vec{a}\) and \(\vec{b}\) vectors are considererd equal if they consist of the same representatives.\\
+
+\noindent Note, in order to prove the equality \(\vec{a} = \vec{b}\), we just need to show that the \(\vec{a}\) and \(\vec{b}\) have a common representative.\\
+
+\noindent Two or more vectors are called \textbf{collinear} (\textbf{coplanar})if they lie along the same line (plane)  when applied on the same point.\\
+
+\noindent To indicate that \(\vec{a}\) and \(\vec{b}\) are collinear, we write \(\vec{a} \mid\mid \vec{b}\).\\
+
+\noindent The zero vector is collinear to any vector.\\
+
+\noindent By the notation \([AB)\) we mean the ray that is lying on the \(AB\) line, has point \(A\) as its initial point and contains point \(B\).\\
+
+\noindent Two rays with the same initial point \([AB)\) and \([AC)\) coincide if and only if \(C \in [AB)\) or \(B \in [AC)\).\\
+
+\noindent Two collinear non-zero vectors \(\vec{a} = \overrightarrow{AB}\) and \(\vec{b} = \overrightarrow{AC}\) are called \textbf{co-directed} (\(\vec{a} \uparrow\uparrow \vec{b}\)), if \([AB)\) and \([AC)\) rays are the same and are called \textbf{opposite directed} (\(\vec{a} \uparrow \downarrow \vec{b}\)) otherwise.\\
+
+
+
+\end{document}
